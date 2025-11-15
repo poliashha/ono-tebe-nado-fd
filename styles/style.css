@@ -153,6 +153,7 @@
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
+  list-style-type: none;
 }
 
 .card-link,.card {
@@ -176,10 +177,6 @@
   background-image: url(/images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.lots__card-list-item {
-  list-style-type: none;
 }
 
 .card {
@@ -227,11 +224,12 @@
 .about__columm {
   display: grid; 
   grid-template-columns: 334px auto;
-  grid-template-areas: "logo title"
-                       "logo text";
+  grid-template-areas: 
+  "logo title"
+  "logo text";
 }
 
-.about__logo { 
+.about__logo {
   display: flex;
   grid-area: logo;
   justify-content: center;
