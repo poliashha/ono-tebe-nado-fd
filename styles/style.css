@@ -77,7 +77,8 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 1.15;  
+  line-height: 
+  115%;  
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -113,7 +114,8 @@
 }
 
 .cover__description-text {
-  font-weight: 400; 
+  font-weight: 
+  400; 
   font-size: 22px;
   line-height: 127%;
   text-transform: uppercase;
@@ -222,7 +224,8 @@
 }
 
 .about__columm {
-  display: grid; 
+  display: 
+  grid; 
   grid-template-columns: 334px auto;
   grid-template-areas: 
   "logo title"
