@@ -63,7 +63,7 @@
 .overlay {
   position: absolute;
   z-index: 1;
-   width: 100%;
+  width: 100%;
   height: 100%;
   opacity: 0.6;
   background: #000;
@@ -77,14 +77,13 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 
-  115%;  
+  line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
 .aligned-text {
-   display: block;
+  display: block;
 }
 
 .aligned-text_left {
@@ -97,7 +96,7 @@
 }
 
 .aligned-text_right {
-  padding-top: 20px ;
+  padding-top: 20px;
   text-align: right;
   transform: translateX(30px);
 }
@@ -114,8 +113,7 @@
 }
 
 .cover__description-text {
-  font-weight: 
-  400; 
+  font-weight: 400;
   font-size: 22px;
   line-height: 127%;
   text-transform: uppercase;
@@ -158,9 +156,9 @@
   list-style-type: none;
 }
 
-.card-link,.card {
+.card-link,
+.card {
   height: 100%;
-  
 }
 
 .card_type_film {
@@ -186,7 +184,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- 
 }
 
 .card__title {
@@ -211,7 +208,7 @@
 }
 
 .about {
-  padding: 0 0 0 70px ;
+  padding: 0 0 0 70px;
 }
 
 .lots__look-more-link {
@@ -224,12 +221,11 @@
 }
 
 .about__columm {
-  display: 
-  grid; 
+  display: grid;
   grid-template-columns: 334px auto;
-  grid-template-areas: 
-  "logo title"
-  "logo text";
+  grid-template-areas:
+    "logo title"
+    "logo text";
 }
 
 .about__logo {
