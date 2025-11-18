@@ -40,7 +40,9 @@
 .address {
   font-style: normal;
 }
-
+.address__link{
+  text-underline-offset: 3px;
+}
 .header__address {
   justify-self: end;
 }
