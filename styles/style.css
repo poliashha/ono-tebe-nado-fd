@@ -29,7 +29,7 @@
   list-style: circle;
 }
 
-.header__menu-item_active {
+.header__link_active {
   text-decoration: none;
 }
 
